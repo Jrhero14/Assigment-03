@@ -11,10 +11,10 @@ def main():
         result = add(data_1, data_2)
 
     if operator == "*":
-        result = add(data_1, data_2)
+        result = multiplication(data_1, data_2)
 
     if operator == "/":
-        result = add(data_1, data_2)
+        result = division(data_1, data_2)
 
     print("{} {} {} = {} ".format(data_1, operator, data_2, result))
 
