@@ -1,4 +1,4 @@
-from math_function import add
+from math_function import add, multiplication, division
 
 
 def main():
@@ -8,6 +8,12 @@ def main():
     operator = input("masukkan operator :")
 
     if operator == "+":
+        result = add(data_1, data_2)
+
+    if operator == "*":
+        result = add(data_1, data_2)
+
+    if operator == "/":
         result = add(data_1, data_2)
 
     print("{} {} {} = {} ".format(data_1, operator, data_2, result))
